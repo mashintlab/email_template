@@ -37,7 +37,7 @@
         const li = document.createElement('li');
         const a  = document.createElement('a');
         a.href      = `#${name}`;
-        a.textContent = prettyName( index + name);
+        a.textContent = `${index + 1}. ${prettyName(name)}`;
         li.appendChild(a);
         ul.appendChild(li);
       });
