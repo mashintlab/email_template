@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Account Reset - Bid4Penny</title>
+<style>
+ body{
+    /* margin:50px; */
+    padding:0;
+    background:#eaeced;
+    -webkit-text-size-adjust:none;
+    -ms-text-size-adjust:none;
+}
+ table{
+    border-collapse:collapse;
+}
+ img{
+    border:none;
+    display:block;
+}
+ p{
+    margin: 0 15px;
+    font-family: 'Open Sans',Arial,sans-serif;
+    font-size:15px;
+    color: #1f1f1f;
+    text-align:left;
+    line-height:20px;
+    padding: 3% 2.5% 2.5% 2.5%;
+    vertical-align: middle;
+}
+ h1{
+    margin:0;
+    font-size:18px;
+    color:#333;
+    font-weight:bold;
+}
+ .wrapper{
+    max-width:600px;
+    width:100%;
+    margin:0 auto;
+    background:#ffffff;
+}
+ .gradient-bar{
+    height:4px;
+    background:linear-gradient(90deg,rgba(255,72,0,1) 0%,rgba(218,84,216,1) 30%,rgba(0,146,244,1) 70%,rgba(32,220,134,1) 100%);
+}
+
+ .btn{
+    text-decoration:none;
+    background:#3c92ed;color:#ffffff;
+    padding:10px 20px;
+    border-radius:4px;
+    display:inline-block;
+}
+ .social img{
+    max-width:30px;
+}
+
+	/* Fade-in Up animation */
+	@keyframes fadeInUp {
+		  from { opacity: 0; transform: translateY(20px); }
+		  to   { opacity: 1; transform: translateY(0); }
+		}
+  
+		.footer-nav {
+		  display: flex;
+		  flex-wrap: wrap;
+		  justify-content: center;
+		  gap: 20px;
+		  animation: fadeInUp 0.8s ease forwards;
+		}
+  
+		.footer-nav a {
+		  position: relative;
+		  display: inline-block;
+		  padding: 8px 16px;
+		  border: 2px solid #0056d2;
+		  border-radius: 4px;
+		  color: #0056d2 !important;
+		  text-decoration: none !important;
+		  font-size: 12px;
+		  line-height: 16px;
+		  transition: background 0.3s ease, color 0.3s ease, transform 0.2s ease;
+		}
+  
+		/* Sliding underline */
+		.footer-nav a::after {
+		  content: '';
+		  position: absolute;
+		  left: 50%;
+		  bottom: -4px;
+		  width: 0;
+		  height: 2px;
+		  background: #0056d2;
+		  transition: width 0.3s ease, left 0.3s ease;
+		}
+		.footer-nav a:hover::after {
+		  width: 100%;
+		  left: 0%;
+		}
+  
+		.footer-nav a:hover {
+		  background: #0056d2 !important;
+		  color: #ffffff !important;
+		}
+		.footer-nav a:active {
+		  transform: scale(0.95);
+		}
+  
+		.footer-info {
+		  margin-top: 20px;
+		  font-size: 12px;
+		  line-height: 16px;
+		  color: #1f1f1f;
+		  animation: fadeInUp 0.8s ease forwards;
+		  animation-delay: 0.2s;
+		}
+		.footer-info a {
+		  color: #0056d2 !important;
+		  text-decoration: underline !important;
+		}
+
+		.social img{
+
+			transition: scale 0.3s ease-in-out;
+		}
+
+		.social img:hover{
+			scale: 1.2;
+		}
+
+		.endnote{
+			padding: 5px 13px;
+    margin-top: 10px;
+    text-align: center;
+		}
+		
+ @media screen and (max-width:600px){
+  .wrapper{
+    width:100% !important;
+    }
+ }
+</style>
+</head>
+<body>
+<table width="100%" bgcolor="#eaeced">
+<tr>
+<td align="center">
+
+
+
+<table class="wrapper"><tr><td>
+<table width="100%" cellpadding="0" cellspacing="0">
+<tr><td align="center" style="padding:25px 0;">
+<a href="https://demo.bid4penny.com" target="_blank">
+<img src="https://demo.bid4penny.com/img/email/header2.webp" alt="Bid4Penny" width="100%" height="100%" style="max-width:220px;width:100%;">
+
+
+</a>
+</td></tr>
+</table>
+</td></tr></table>
+
+<table class="wrapper"><tr><td>
+<div class="gradient-bar"></div>
+</td></tr>
+<tr><td align="center" style="padding:0;">
+	<a href="https://demo.bid4penny.com" target="_blank">
+	
+	<img src="https://demo.bid4penny.com/img/email/variation/testimonial.webp" alt="Bid4Penny" width="100%" height="100%" >
+	
+	</a>
+	</td></tr>
+</table>
+
+
+
+<table class="wrapper">
+	<tr>
+	  <td style="padding:40px 0;" align="center">
+		<h1>Dear, <span style="color:#fa4800;">{{FIRST_NAME}}</span></h1>
+  
+		<p style="padding:15px 13px;">
+			Thank you for submitting your testimonial regarding your experience with Bid4Penny. We appreciate your engagement with our community.
+		</p>
+  
+		
+  
+		<p class="endnote">
+		  Thank you for choosing Bid4Penny!<br>
+		  <span style="font-weight: bold;">— The Bid4Penny Team</span>
+		</p>
+		
+	  </td>
+	</tr>
+  </table>
+  
+
+
+
+<table class="wrapper"><tr><td align="center" style="padding:20px 0;">
+<p>If you need any help please <a href="https://hivehelpdesk.com/ticket/open?ref=demo.bid4penny.com" style="color:#3c92ed;">visit our Support Center</a> — we're here 24/7.</p>
+</td></tr></table>
+
+<table class="wrapper" bgcolor="#f5f5f5"><tr><td style="padding:15px 25px;font-size:13px;color:#676767; display: flex;">
+<img src="https://demo.bid4penny.com/img/email/disclaimer.png" alt="Disclaimer" width="13" style="vertical-align:middle;">&nbsp;Bid4Penny features and services are subject to eligibility and may not be available in all regions.
+</td></tr></table>
+
+<table class="wrapper" bgcolor="#242527"><tr><td align="center" style="background:linear-gradient(-90deg,#2fd5a5,#097df8);padding:30px 0;">
+<h1 style="color:#ffffff;font-size:18px;">Stay connected with us</h1>
+
+<table cellpadding="0" cellspacing="0" class="social" style="margin-top:15px;">
+
+	<tr>
+<td><a href="https://www.facebook.com/Bid4Penny" target="_blank"><img src="https://demo.bid4penny.com/img/email/facebook.png" alt="Facebook"></a></td>
+<td width="10"></td>
+<td><a href="https://x.com/bid4penny" target="_blank"><img src="https://demo.bid4penny.com/img/email/x.png" alt="X"></a></td>
+<td width="10"></td>
+<td><a href="https://www.linkedin.com/company/bid4penny/" target="_blank"><img src="https://demo.bid4penny.com/img/email/in.png" alt="LinkedIn"></a></td>
+<td width="10"></td>
+<td><a href="https://www.youtube.com/@Bid4penny" target="_blank"><img src="https://demo.bid4penny.com/img/email/yt.png" alt="YouTube"></a></td>
+</tr>
+</table>
+
+</td></tr>
+<tr>
+	<td align="center" style="padding:2.5% 0 5% 0; font-family:'Open Sans', Arial, sans-serif;">
+	  
+  
+	  <div class="footer-nav">
+		<a href="https://demo.bid4penny.com/packages" target="_blank">Live Auction</a>
+		<a href="https://click.email.Bid4penny.org/?qs=…">How It Works</a>
+		<a href="https://click.email.Bid4penny.org/?qs=…">Affiliate Program</a>
+		<a href="https://click.email.Bid4penny.org/unsub_center.aspx?qs=…">Buy Bids</a>
+	  </div>
+  
+	  <div class="footer-info">
+		© 2025 Bid4penny Inc. All rights reserved. <br>
+		Bid4penny | Jumeirah Bay Tower X3, Dubai, United Arab Emirates
+	  </div>
+	</td>
+  </tr>
+  
+</table>
+
+</td>
+</tr>
+</table>
+
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+</body>
+</html>
