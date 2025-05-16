@@ -20,7 +20,8 @@
       '15_Payment_confirm',
       '16_Shipping_confirm',
       '17_Bonus_Bid',
-      '18_Account_Suspension'
+      '18_Account_Suspension',
+      '19_Invite_Friend_Mail'
     ];
  
   
